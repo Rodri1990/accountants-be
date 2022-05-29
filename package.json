@@ -1,0 +1,36 @@
+{
+  "name": "accountants-be",
+  "version": "0.0.1",
+  "description": "app for accountants consults",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "babel": "nodemon app.js --exec babel-node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rodri1990/accountants-be.git"
+  },
+  "keywords": [],
+  "author": "Montero Rodrigo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rodri1990/accountants-be/issues"
+  },
+  "homepage": "https://github.com/Rodri1990/accountants-be#readme",
+  "dependencies": {
+    "connect-history-api-fallback": "^1.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.2",
+    "@babel/node": "^7.17.10",
+    "@babel/preset-env": "^7.18.2",
+    "nodemon": "^2.0.16"
+  }
+}
