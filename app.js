@@ -26,3 +26,5 @@ app.set('port', process.env.PORT || 3000);
 app.listen(app.get('port'), () => {
   console.log('levanto el server en el puerto' + app.get('port'));
 });
+
+// PORT DB 5432
